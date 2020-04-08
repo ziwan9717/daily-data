@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 10px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.4);
+    transition: all 1s ease;
+}
+.main img:first-child{
+    transform: rotate(30deg);
+}
+.main img:last-child{
+    transform: rotate(-20deg);
+}
+.main img:hover{
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 4);
+    z-index: 1;
+    transform: scale(1.2);
+}

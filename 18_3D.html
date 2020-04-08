@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .div1{
+            width: 200px;
+            height: 200px;
+            border: 2px dashed;
+            margin: 200px auto;
+            perspective: 1000px;
+            perspective-origin: 50% 800px;
+        }
+        .div2{
+            width: 200px;
+            height: 200px;
+            background-color: coral;
+            transform: rotateY(30deg);
+            transform-style: preserve-3d;
+            /* transform: rotateX(30deg); */
+            /* transform: scale3d(2,0.5,1); */
+        }
+        .div3{
+            width: 200px;
+            height: 200px;
+            background-color: chartreuse;
+            transform: rotateY(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

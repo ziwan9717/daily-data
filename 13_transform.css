@@ -1,0 +1,67 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed;
+    margin: 100px auto;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    transform: rotate(-30deg);
+    transform-origin: left top;
+}     Rotate属性   */
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed;
+    margin: 100px auto;
+    position: relative;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} 块级元素中的块级元素居中问题*/
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    transform: scale(2);
+}     scale属性*/
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 2px  dashed;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    transform: skew(50deg);
+}   skew属性   */

@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    transition: all 2s linear;
+}
+.div1:hover{
+    width: 500px;
+    background-color: cornflowerblue;
+}
