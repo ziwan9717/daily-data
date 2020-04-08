@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background: coral;
+    animation: xx 5s ease forwards;
+}
+@keyframes xx{
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 400px;
+    }
+    100%{
+        width: 600px;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="17_钟表.css">
+</head>
+<body>
+    <div id="clock">
+        <ul id="dial">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+    <script>
+        var oDial = document.getElementById("dial");
+        var lis = "";
+        for(var i=0; i<60; i++){
+            // lis += "<li style='transform: rotate(" + i * 6 + "deg);'></li>";
+            lis += "<li></li>";
+        }
+        oDial.innerHTML = lis;
+    </script>
+</body>
+</html>
